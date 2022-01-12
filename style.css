@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Articulat CF;
+  src: url(artic/ArticulatCF-Normal.otf);
+}
+
+@font-face {
+  font-family: Articulat CF Regular;
+  src: url(artic/ArticulatCF-Regular.otf);
+}
+
+@font-face {
+  font-family: Articulat CF Medium;
+  src: url(artic/ArticulatCF-Medium.otf);
+}
+
+@font-face {
+  font-family: Articulat CF DemiBold;
+  src: url(artic/ArticulatCF-DemiBold.otf);
+}
+
+@font-face {
+  font-family: Articulat CF Bold;
+  src: url(artic/ArticulatCF-Bold.otf);
+}
+
+@font-face {
+  font-family: Articulat CF ExtraBold;
+  src: url(artic/ArticulatCF-ExtraBold.otf);
+}
+
+@font-face {
+  font-family: Articulat CF Heavy;
+  src: url(artic/ArticulatCF-Heavy.otf);
+}
+
+@font-face {
+  font-family: Articulat CF Light;
+  src: url(artic/ArticulatCF-Light.otf);
+}
+
+@font-face {
+  font-family: Articulat CF ExtraLight;
+  src: url(artic/ArticulatCF-ExtraLight.otf);
+}
+
+@font-face {
+  font-family: Articulat CF Thin;
+  src: url(artic/ArticulatCF-Thin.otf);
+}
+
+* {
+  font-family: Articulat CF;
+}
+/*# sourceMappingURL=style.css.map */
