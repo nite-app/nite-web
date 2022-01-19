@@ -7,3 +7,5 @@
 
 # nite-web
 Nite presentation website
+
+Native HTML, SCSS and Vanilla JavaScript
