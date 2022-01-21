@@ -214,3 +214,48 @@ body {
   font-size: 30px;
   font-family: Articulat CF Regular;
 }
+
+/* ######################################### PAGE 2 ######################################### */
+
+.page2 {
+  width: 100vw;
+  height: 231vh;
+  background: linear-gradient(#fafbfc, #ffffff);
+}
+
+.txt2 {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ttl2 {
+  font-size: 75px;
+}
+
+.p2 {
+  font-family: Articulat CF Medium;
+  font-size: 24px;
+  margin-top: -50px;
+}
+
+.panels {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+
+.panel {
+  width: 1400px;
+  height: 600px;
+  -webkit-box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+  margin-bottom: 75px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
