@@ -49,6 +49,11 @@
   src: url(artic/ArticulatCF-Thin.otf);
 }
 
+@font-face {
+  font-family: Articulat CF Woff;
+  src: url(artic/articulatcf-extrabold-webfont.woff);
+}
+
 /*######################################### FIRST PAGE STYLING #########################################*/
 * {
   font-family: Articulat CF;
@@ -127,7 +132,6 @@ body::-webkit-scrollbar {
   border-radius: 25px;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-  font-family: Articulat CF;
 }
 
 .split {
@@ -146,19 +150,16 @@ body::-webkit-scrollbar {
 
 .navttl {
   font-size: 28px;
-  font-family: Articulat CF ExtraBold;
   margin-top: 1.5%;
 }
 
 .navsp20 {
   font-size: 18px;
-  font-family: Articulat CF ExtraBold;
   margin-right: 20px;
 }
 
 .navdownload {
   font-size: 18px;
-  font-family: Articulat CF ExtraBold;
   color: #ffffff;
 }
 
