@@ -280,7 +280,7 @@ body::-webkit-scrollbar {
           align-items: center;
   text-align: center;
   margin: auto;
-  margin-top: -100px;
+  margin-top: -150px;
 }
 
 .ttl1 {
@@ -354,5 +354,65 @@ body::-webkit-scrollbar {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
+}
+
+.panel1 {
+  width: 1400px;
+  height: 600px;
+  -webkit-box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+  margin-bottom: 75px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.p1ttl {
+  display: -ms-grid;
+  display: grid;
+  font-size: 36px;
+  color: #f35c6e;
+  -ms-grid-column-span: 3;
+      grid-column-end: span 3;
+  margin-left: 75px;
+  margin-bottom: 20px;
+  -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.p1p {
+  font-size: 18px;
+  font-family: Articulat CF Regular;
+  letter-spacing: 0.8px;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
+  margin-left: 75px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.panel1Mid {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.panel1Big {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
