@@ -417,4 +417,53 @@ body::-webkit-scrollbar {
 }
 
 .ttl4 {
+  font-size: 75px;
+  font-weight: bolder;
+  margin-top: 300px;
+}
+
+.btn4c {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.btn4 {
+  background-color: #ff6768;
+  border-radius: 30px;
+  width: 250px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a4 {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+}
+
+/* ######################################### FOOTER ######################################### */
+
+.footer {
+  width: 100vw;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bar {
+  width: 80vw;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: #cacaca;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
 }
