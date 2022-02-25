@@ -518,6 +518,7 @@ body::-webkit-scrollbar {
   height: 100vh;
   background: -webkit-gradient(linear, left top, left bottom, from(#fafbfc), to(#ffffff));
   background: linear-gradient(#fafbfc, #ffffff);
+  position: relative;
 }
 
 .content {
@@ -560,7 +561,11 @@ body::-webkit-scrollbar {
   margin-top: 150px;
 }
 
-.btn4 {
+.a4 {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.5px;
+  font-size: 20px;
   background-color: #ff6768;
   border-radius: 30px;
   width: 250px;
@@ -574,13 +579,7 @@ body::-webkit-scrollbar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.a4 {
-  text-decoration: none;
-  color: white;
-  letter-spacing: 0.5px;
-  font-size: 20px;
+  z-index: 10;
 }
 
 /* ######################################### FOOTER ######################################### */
@@ -671,5 +670,25 @@ body::-webkit-scrollbar {
   color: #cacaca;
   font-family: Articulat CF Light;
   margin-bottom: 30px;
+}
+
+/* ######################################### FOOTER ######################################### */
+.illustrations {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+}
+
+.i4-1 {
+  position: absolute;
+  top: 25vh;
+  left: 15vw;
+}
+
+.i4-2 {
+  position: absolute;
+  top: 10vh;
+  right: 15vw;
 }
 /*# sourceMappingURL=style.css.map */
