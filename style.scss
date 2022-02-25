@@ -96,6 +96,7 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 10;
 }
 
 .navct {
@@ -121,14 +122,21 @@ body::-webkit-scrollbar {
   justify-content: center;
 }
 
+.navimg {
+  margin-top: 0.25%;
+  text-decoration: none;
+  color: black;
+}
+
 .navttl {
   font-size: 28px;
-  margin-top: 1.5%;
 }
 
 .navsp20 {
   font-size: 18px;
-  margin-right: 20px;
+  margin-right: 50px;
+  text-decoration: none;
+  color: black;
 }
 
 .navdownload {
