@@ -12,6 +12,8 @@
       type="image/x-icon"
     />
 
+    <script type="module" src="./firebase-app.js"></script>
+
     <title>Nite | Account</title>
   </head>
   <body>
@@ -23,8 +25,8 @@
       </div>
       <div class="ctsplit">
         <div class="formcontainer">
-          <h1 class="formttl">Register ✌️</h1>
-          <p class="formsub">Please fill in this form to create an account.</p>
+          <h1 class="formttl">Login ✌️</h1>
+          <p class="formsub">Please fill in this form to login into your account.</p>
           <hr />
 
           <label for="email" style="font-family: Articulat CF DemiBold;"<b>Email</b></label>
@@ -32,7 +34,7 @@
             type="text"
             placeholder="Enter Email"
             name="email"
-            id="email"
+            id="regemail"
             class="field"
             required
           />
@@ -42,30 +44,21 @@
             type="password"
             placeholder="Enter Password"
             name="psw"
-            id="psw"
-            class="field"
-            required
-          />
-
-          <label for="psw-repeat" style="font-family: Articulat CF DemiBold;"<b>Repeat Password</b></label>
-          <input
-            type="password"
-            placeholder="Repeat Password"
-            name="psw-repeat"
-            id="psw-repeat"
+            id="regpsw"
             class="field"
             required
           />
           <hr />
 
-          <p class="formp">
-            By creating an account you agree to our
-            <a href="#" style="text-decoration: none; font-family: Articulat CF Regular;">Terms & Privacy</a>.
-          </p>
-          <button type="submit" class="registerbtn">Register</button>
+          <button type="submit" class="loginbtn">Login</button>
         </div>
         <div class="asc2"></div>
       </div>
     </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
+    <script type="module" src="./firebase-app.js"></script>
+    <script type="module" src="./app.js"></script>
   </body>
 </html>
