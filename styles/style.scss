@@ -1,57 +1,57 @@
 @font-face {
   font-family: Articulat CF;
-  src: url(artic/ArticulatCF-Normal.otf);
+  src: url(../artic/ArticulatCF-Normal.otf);
 }
 
 @font-face {
   font-family: Articulat CF Regular;
-  src: url(artic/ArticulatCF-Regular.otf);
+  src: url(../artic/ArticulatCF-Regular.otf);
 }
 
 @font-face {
   font-family: Articulat CF Medium;
-  src: url(artic/ArticulatCF-Medium.otf);
+  src: url(../artic/ArticulatCF-Medium.otf);
 }
 
 @font-face {
   font-family: Articulat CF DemiBold;
-  src: url(artic/ArticulatCF-DemiBold.otf);
+  src: url(../artic/ArticulatCF-DemiBold.otf);
 }
 
 @font-face {
   font-family: Articulat CF Bold;
-  src: url(artic/ArticulatCF-Bold.otf);
+  src: url(../artic/ArticulatCF-Bold.otf);
 }
 
 @font-face {
   font-family: Articulat CF;
-  src: url(./artic/ArticulatCF-ExtraBold.otf);
+  src: url(../artic/ArticulatCF-ExtraBold.otf);
   font-weight: bolder;
 }
 
 @font-face {
   font-family: Articulat CF Heavy;
-  src: url(artic/ArticulatCF-Heavy.otf);
+  src: url(../artic/ArticulatCF-Heavy.otf);
 }
 
 @font-face {
   font-family: Articulat CF Light;
-  src: url(artic/ArticulatCF-Light.otf);
+  src: url(../artic/ArticulatCF-Light.otf);
 }
 
 @font-face {
   font-family: Articulat CF ExtraLight;
-  src: url(artic/ArticulatCF-ExtraLight.otf);
+  src: url(../artic/ArticulatCF-ExtraLight.otf);
 }
 
 @font-face {
   font-family: Articulat CF Thin;
-  src: url(artic/ArticulatCF-Thin.otf);
+  src: url(../artic/ArticulatCF-Thin.otf);
 }
 
 @font-face {
   font-family: Articulat CF Woff;
-  src: url(artic/articulatcf-extrabold-webfont.woff);
+  src: url(../artic/articulatcf-extrabold-webfont.woff);
 }
 
 /*######################################### FIRST PAGE STYLING #########################################*/
@@ -607,7 +607,7 @@ body::-webkit-scrollbar {
 .asc2 {
   width: 100%;
   height: 100%;
-  background: url("img/temp.jpg");
+  background: url("../img/temp.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
