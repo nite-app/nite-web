@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../styles/style.css" />
     <link
       rel="shortcut icon"
-      href="img/Plugin icon - 9logoColorBig.png"
+      href="../../img/Plugin icon - 9logoColorBig.png"
       type="image/x-icon"
     />
 
-    <script type="module" src="./firebase-app.js"></script>
+    <script type="module" src="../../scripts/login.js"></script>
 
-    <title>Nite | Account</title>
+    <title>Nite - Login</title>
   </head>
   <body>
     <div class="acont">
       <div class="back">
         <a href="index.html">
-          <img src="img/chevron-left-solid.svg" alt="" width="25px">
+          <img src="../../img/chevron-left-solid.svg" alt="" width="25px">
         </a>
       </div>
       <div class="ctsplit">
@@ -34,7 +34,7 @@
             type="text"
             placeholder="Enter Email"
             name="email"
-            id="regemail"
+            id="logemail"
             class="field"
             required
           />
@@ -44,7 +44,7 @@
             type="password"
             placeholder="Enter Password"
             name="psw"
-            id="regpsw"
+            id="logpsw"
             class="field"
             required
           />
@@ -56,9 +56,11 @@
       </div>
     </div>
 
+    <script type="module" src="../../scripts/login.js"></script>
+    <script type="module" src="../../scripts/app.js"></script>
+
+
     <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
-    <script type="module" src="./firebase-app.js"></script>
-    <script type="module" src="./app.js"></script>
   </body>
 </html>
