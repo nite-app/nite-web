@@ -33,6 +33,8 @@ function handleRegister() {
       .catch((error) => {
         console.log(error.message);
       });
+  } else {
+    alert("Password and Confirmation field don't match!");
   }
 }
 
