@@ -12,16 +12,20 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-var emailfield = document.querySelector("#regemail");
-var pswfield = document.querySelector("#regpsw");
-var conffield = document.querySelector("#psw-repeat");
+// LOGIN AND REGISTER FIELDS DECLARATION
 
-var btn = document.querySelector(".registerbtn");
+var regemailfield = document.querySelector("#regemail");
+var regpswfield = document.querySelector("#regpsw");
+var regconffield = document.querySelector("#psw-repeat");
+
+var regbtn = document.querySelector(".registerbtn");
+
+//REGISTER
 
 function handleRegister() {
-  let email = emailfield.value;
-  let psw = pswfield.value;
-  let conf = conffield.value;
+  let email = regemailfield.value;
+  let psw = regpswfield.value;
+  let conf = regconffield.value;
 
   if (conf === psw) {
     firebase
@@ -38,4 +42,4 @@ function handleRegister() {
   }
 }
 
-btn.addEventListener("click", handleRegister);
+regbtn.addEventListener("click", handleRegister);
