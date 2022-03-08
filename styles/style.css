@@ -866,4 +866,22 @@ body::-webkit-scrollbar {
   letter-spacing: 0.5px;
   z-index: 10;
 }
+
+.changescreen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  font-family: Articulat CF Regular;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formsub2 {
+  font-size: 16px;
+  font-family: Articulat CF Regular;
+  text-decoration: none;
+  color: blue;
+}
 /*# sourceMappingURL=style.css.map */
