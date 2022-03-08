@@ -20,29 +20,33 @@
     <div class="acont">
       <div class="back">
         <a href="../../index.html">
-          <img src="../../img/chevron-left-solid.svg" alt="" width="25px">
+          <img src="../../img/chevron-left-solid.svg" alt="" width="25px" />
         </a>
       </div>
       <div class="ctsplit">
         <div class="formcontainer">
-          <h1 class="formttl">Login ✌️</h1>
-          <p class="formsub">Please fill in this form to login into your account.</p>
+          <h1 class="formttl">Log into your account.</h1>
+          <div class="changescreen">
+            <p class="formsub">First time here?&nbsp;</p>
+            <a class="formsub2" href="./register.html">Register</a>
+          </div>
+
           <hr />
 
-          <label for="email" style="font-family: Articulat CF DemiBold;"<b>Email</b></label>
+          <!-- <label for="email" style="font-family: Articulat CF DemiBold;"<b>Email</b></label> -->
           <input
             type="text"
-            placeholder="Enter Email"
+            placeholder="Email"
             name="email"
             id="logemail"
             class="field"
             required
           />
 
-          <label for="psw" style="font-family: Articulat CF DemiBold;"<b>Password</b></label>
+          <!-- <label for="psw" style="font-family: Articulat CF DemiBold;"<b>Password</b></label> -->
           <input
             type="password"
-            placeholder="Enter Password"
+            placeholder="Password"
             name="psw"
             id="logpsw"
             class="field"
@@ -58,7 +62,6 @@
 
     <script type="module" src="../../scripts/login.js"></script>
     <script type="module" src="../../scripts/app.js"></script>
-
 
     <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
