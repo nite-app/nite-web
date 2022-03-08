@@ -775,13 +775,14 @@ body::-webkit-scrollbar {
 }
 
 .formttl {
-  font-size: 32px;
+  font-size: 36px;
   margin-bottom: -5px;
+  font-family: Articulat CF;
 }
 
 .formsub {
   font-size: 16px;
-  font-family: Articulat CF Regular;
+  font-family: Articulat CF Medium;
 }
 
 .asc2 {
@@ -795,44 +796,38 @@ body::-webkit-scrollbar {
 }
 
 .field {
-  height: 50px;
-  border-radius: 50px;
-  margin: 10px 0 20px 0;
+  height: 60px;
+  border-radius: 15px;
+  margin: 10px 0 10px 0;
   padding: 0 0 0 25px;
-  border: 2px solid #c7c7c7;
+  background-color: #f0f0f0;
+  border: none;
 }
 
 .field::-webkit-input-placeholder {
-  font-family: Articulat CF Regular;
+  font-family: Articulat CF Medium;
   color: #c7c7c7;
 }
 
 .field:-ms-input-placeholder {
-  font-family: Articulat CF Regular;
+  font-family: Articulat CF Medium;
   color: #c7c7c7;
 }
 
 .field::-ms-input-placeholder {
-  font-family: Articulat CF Regular;
+  font-family: Articulat CF Medium;
   color: #c7c7c7;
 }
 
 .field::placeholder {
-  font-family: Articulat CF Regular;
+  font-family: Articulat CF Medium;
   color: #c7c7c7;
-}
-
-.formp {
-  font-family: Articulat CF Regular;
-  text-decoration: none;
-  font-size: 14px;
-  color: #505050;
 }
 
 .registerbtn {
   background-color: #ff6768;
-  height: 50px;
-  border-radius: 25px;
+  height: 60px;
+  border-radius: 30px;
   border: none;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
@@ -840,6 +835,7 @@ body::-webkit-scrollbar {
   font-size: 20px;
   letter-spacing: 0.5px;
   z-index: 10;
+  margin-top: 20px;
 }
 
 .back {
@@ -856,8 +852,8 @@ body::-webkit-scrollbar {
 
 .loginbtn {
   background-color: #ff6768;
-  height: 50px;
-  border-radius: 25px;
+  height: 60px;
+  border-radius: 30px;
   border: none;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
@@ -865,6 +861,7 @@ body::-webkit-scrollbar {
   font-size: 20px;
   letter-spacing: 0.5px;
   z-index: 10;
+  margin-top: 20px;
 }
 
 .changescreen {
@@ -883,5 +880,10 @@ body::-webkit-scrollbar {
   font-family: Articulat CF Regular;
   text-decoration: none;
   color: blue;
+}
+
+.formcontainer label {
+  font-family: Articulat CF Medium;
+  letter-spacing: 0.5px;
 }
 /*# sourceMappingURL=style.css.map */
