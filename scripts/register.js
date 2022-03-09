@@ -33,6 +33,7 @@ function handleRegister() {
       .createUserWithEmailAndPassword(email, psw)
       .then(() => {
         console.log("Created account with email " + email);
+        handleLogin();
       })
       .catch((error) => {
         console.log(error.message);
@@ -40,6 +41,21 @@ function handleRegister() {
   } else {
     alert("Password and Confirmation field don't match!");
   }
+}
+
+function handleLogin() {
+  let email = regemailfield.value;
+  let psw = regpswfield.value;
+
+  firebase
+    .auth()
+    .signInWithEmailAndPassword(email, psw)
+    .then((userCredentials) => {
+      const user = userCredentials.user;
+      console.log("Logged in as: " + user.email);
+      window.location.href = "http://niteapp.cf";
+    })
+    .catch((error) => alert(error.message));
 }
 
 regbtn.addEventListener("click", handleRegister);
