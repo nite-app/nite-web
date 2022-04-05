@@ -717,7 +717,7 @@ body::-webkit-scrollbar {
   top: 10vh;
   right: 15vw;
 }
-@media screen and (min-width: 1200px) and (max-width: 1600px){
+@media screen and (min-width: 820px) and (max-width: 1600px){
   .nav {
     height: 10vh; /**/
   }
