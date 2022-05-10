@@ -53,7 +53,8 @@ function handleLogin() {
     .then((userCredentials) => {
       const user = userCredentials.user;
       console.log("Logged in as: " + user.email);
-      window.location.href = "http://niteapp.cf";
+      //window.location.href = "http://my.niteapp.cf";
+      //change it to navigate to home file
     })
     .catch((error) => alert(error.message));
 }
