@@ -25,12 +25,14 @@
           <h1 class="contactttl">Contact Us</h1>
           <p class="contactp">Don’t feel like submitting a form? <span style="color: #4a4aeb; font-size: 20px; font-family: Articulat CF Medium;">Send us an email</span></p>
           <input class="contactfield" type="text" name="name" id="nametxt" placeholder="Name">
-          <input class="contactfield" type="email" name="email" id="emailtxt" placeholder="Email">
+          <input class="contactfield" type="text" name="subject" id="subjecttxt" placeholder="Subject">
           <input class="contactfield" type="text" name="msg" id="msgtxt" placeholder="Message" multiple="true">
-          <button class="contactbtn">Submit</button>
+          <button class="contactbtn" onclick="sendMail(); return false">Submit</button>
         </div>
       </div>
       </div>
     </div>
+
+    <script src="../../scripts/app.js"></script>
   </body>
 </html>

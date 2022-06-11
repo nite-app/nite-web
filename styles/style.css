@@ -738,7 +738,7 @@ body::-webkit-scrollbar {
 }
 
 .contactform {
-  width: 30vw;
+  width: 26vw;
   background-color: #ffffff;
   border-radius: 30px;
   padding: 50px;
@@ -752,6 +752,7 @@ body::-webkit-scrollbar {
 .contactp {
   font-size: 20px;
   font-family: Articulat CF Medium;
+  margin: 10px 0 40px 0;
 }
 
 .contactfield {
