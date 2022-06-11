@@ -834,5 +834,32 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 800px) {
-  // nav
+  .panel1 {
+    background-image: url("../img/panel1back600.png");
+    height: 90vw;
+  }
+  .panel2 {
+    background-image: url("../img/panel2back600.png");
+    height: 90vw;
+  }
+  .panel3 {
+    background-image: url("../img/panel3back600.png");
+    height: 90vw;
+  }
+  .mainttl1 {
+    font-size: 60px;
+  }
+  .txt1 {
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+  .ttl2 {
+    font-size: 60px;
+  }
+  .ttl4 {
+    font-size: 60px;
+    text-align: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
 }
