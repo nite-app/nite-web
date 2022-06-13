@@ -227,6 +227,54 @@ body::-webkit-scrollbar {
   opacity: 0;
 }
 
+.hamburger.is-active:hover span {
+  background-color: #f35c6e;
+}
+
+.menu {
+  transition: 0.5s;
+}
+
+.mobile-nav {
+  position: fixed;
+  left: 0;
+  top: -100vh;
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  padding: 140px 50px 0 50px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  z-index: 9;
+  transition: 0.5s;
+
+  a {
+    display: block;
+    width: 100%;
+    min-width: fit-content;
+    margin: 0 auto 16px;
+    text-align: center;
+    padding: 20px 16px;
+    background-color: #ececec;
+    color: #000000;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+}
+
+.mobile-nav a:hover {
+  background-color: #dfdfdf;
+}
+
+.mobiledownloadp {
+  margin: 0;
+}
+
+.mobile-nav.is-active {
+  top: 0;
+}
+
 /* ######################################### ILLUSTRATIONS PLACEMENT ######################################### */
 
 .imgcontainer {
@@ -878,7 +926,16 @@ body::-webkit-scrollbar {
   }
 }
 
+@media screen and (min-width: 800px) {
+  .hamburger {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
   .panel1 {
     background-image: url("../img/panel1back600.png");
     height: 90vw;
