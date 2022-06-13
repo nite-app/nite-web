@@ -165,6 +165,7 @@ body::-webkit-scrollbar {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
 
 .navimg {
@@ -223,6 +224,57 @@ body::-webkit-scrollbar {
 #downloada {
   text-decoration: none;
   z-index: 1;
+}
+
+.hamburger {
+  display: block;
+  z-index: 1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background-color: #000000;
+  border-radius: 6px;
+  z-index: 1;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.hamburger:hover span:nth-child(2) {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+  background-color: #f35c6e;
+}
+
+.hamburger.is-active span:nth-child(1) {
+  -webkit-transform: translate(0px, -2px) rotate(45deg);
+          transform: translate(0px, -2px) rotate(45deg);
+}
+
+.hamburger.is-active span:nth-child(3) {
+  -webkit-transform: translate(-3px, 3px) rotate(-45deg);
+          transform: translate(-3px, 3px) rotate(-45deg);
+}
+
+.hamburger.is-active span:nth-child(2) {
+  opacity: 0;
 }
 
 /* ######################################### ILLUSTRATIONS PLACEMENT ######################################### */
@@ -616,6 +668,8 @@ body::-webkit-scrollbar {
   display: grid;
   -ms-grid-columns: (1fr)[10];
       grid-template-columns: repeat(10, 1fr);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .cat {
