@@ -1015,6 +1015,36 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 600px) {
+  .page1 {
+    height: 90vh;
+  }
+
+  .txt1 {
+    padding-top: 100px;
+    padding: 100px 20px 0;
+  }
+
+  .ttl4 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .container1 {
+    height: 90vh;
+  }
+
+  .page4 {
+    height: 100vh;
+  }
+
+  .btn4c {
+    margin-top: 60px;
+  }
+
+  .content {
+    height: 90vh;
+  }
+
   .footer {
     height: 400px;
   }
@@ -1054,6 +1084,18 @@ body::-webkit-scrollbar {
     grid-row-start: 2;
     text-align: left;
     margin-left: 20px;
+  }
+}
+
+@media screen and(min-height: 800px) and (max-width: 600px) {
+  .page4 {
+    height: 80vh;
+  }
+  .content {
+    height: 70vh;
+  }
+  .btn4c {
+    margin-top: 20px;
   }
 }
 
