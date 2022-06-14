@@ -1103,7 +1103,6 @@ body::-webkit-scrollbar {
   }
   .container1 {
     height: 80vh;
-    padding: 50px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
@@ -1178,11 +1177,6 @@ body::-webkit-scrollbar {
   .mainttl1 {
     font-size: 60px;
   }
-  .txt1 {
-    padding: 0 50px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
   .ttl2 {
     font-size: 60px;
   }
@@ -1228,7 +1222,6 @@ body::-webkit-scrollbar {
     height: 90vh;
   }
   .txt1 {
-    padding-top: 100px;
     padding: 100px 20px 0 20px;
   }
   .ttl4 {
