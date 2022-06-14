@@ -193,6 +193,9 @@ body::-webkit-scrollbar {
   outline: none;
   background: none;
   cursor: pointer;
+  align-self: right;
+  padding-right: 40px;
+  box-sizing: border-box;
 }
 
 .hamburger span {
@@ -979,6 +982,9 @@ body::-webkit-scrollbar {
     text-align: center;
     padding: 0 50px;
     box-sizing: border-box;
+  }
+  .navct {
+    justify-content: space-between;
   }
 }
 
