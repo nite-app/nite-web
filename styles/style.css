@@ -811,6 +811,29 @@ body::-webkit-scrollbar {
 .blank {
   text-decoration: none;
   color: black;
+  font-size: 0.75em;
+}
+
+.contactcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ececec;
+  font-size: 40px;
 }
 
 .contacttopicon {
@@ -824,6 +847,7 @@ body::-webkit-scrollbar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: none;
 }
 
 .contactform {
@@ -831,15 +855,16 @@ body::-webkit-scrollbar {
   background-color: #ffffff;
   border-radius: 30px;
   padding: 50px;
+  min-width: 500px;
 }
 
 .contactttl {
-  font-size: 40px;
+  font-size: 1em;
   margin: 0;
 }
 
 .contactp {
-  font-size: 20px;
+  font-size: 0.5em;
   font-family: Articulat CF Medium;
   margin: 10px 0 40px 0;
 }
@@ -854,7 +879,7 @@ body::-webkit-scrollbar {
   margin-bottom: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 20px;
+  font-size: 0.5em;
   font-family: Articulat CF Medium;
 }
 
@@ -894,7 +919,7 @@ body::-webkit-scrollbar {
           box-sizing: border-box;
   color: #babac7;
   text-align: center;
-  font-size: 20px;
+  font-size: 0.5em;
   font-family: Articulat CF SemiBold;
 }
 

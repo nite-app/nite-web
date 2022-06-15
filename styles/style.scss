@@ -674,6 +674,19 @@ body::-webkit-scrollbar {
 .blank {
   text-decoration: none;
   color: black;
+  font-size: 0.75em;
+}
+
+.contactcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #ececec;
+  font-size: 40px;
 }
 
 .contacttopicon {
@@ -681,6 +694,7 @@ body::-webkit-scrollbar {
   position: relative;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .contactform {
@@ -688,15 +702,16 @@ body::-webkit-scrollbar {
   background-color: #ffffff;
   border-radius: 30px;
   padding: 50px;
+  min-width: 500px;
 }
 
 .contactttl {
-  font-size: 40px;
+  font-size: 1em;
   margin: 0;
 }
 
 .contactp {
-  font-size: 20px;
+  font-size: 0.5em;
   font-family: Articulat CF Medium;
   margin: 10px 0 40px 0;
 }
@@ -710,7 +725,7 @@ body::-webkit-scrollbar {
   border-radius: 15px;
   margin-bottom: 10px;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 0.5em;
   font-family: Articulat CF Medium;
 }
 
@@ -731,7 +746,7 @@ body::-webkit-scrollbar {
   box-sizing: border-box;
   color: #babac7;
   text-align: center;
-  font-size: 20px;
+  font-size: 0.5em;
   font-family: Articulat CF SemiBold;
 }
 
@@ -858,6 +873,8 @@ body::-webkit-scrollbar {
   font-family: Articulat CF Medium;
   letter-spacing: 0.5px;
 }
+
+//############################################  RESPONSIVE  ###############################################
 
 @media screen and (max-width: 1600px) {
   .imgcontainer {
