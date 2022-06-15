@@ -716,6 +716,12 @@ body::-webkit-scrollbar {
   margin: 10px 0 40px 0;
 }
 
+.contactp span {
+  color: #4a4aeb;
+  font-size: 0.5em;
+  font-family: Articulat CF Medium;
+}
+
 .contactfield {
   width: 100%;
   border: none;
@@ -1031,6 +1037,17 @@ body::-webkit-scrollbar {
     height: 60px;
     font-size: 18px;
   }
+  .contactcontainer {
+    font-size: 32px;
+  }
+  .contactfield::placeholder {
+    font-size: 16px;
+  }
+  .contactform {
+    padding: 25px;
+    min-width: 200px;
+    width: 75vw;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1145,5 +1162,11 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 430px) {
   .ttl4 {
     font-size: 36px;
+  }
+  .contactcontainer {
+    font-size: 28px;
+  }
+  .contactfield::placeholder {
+    font-size: 14px;
   }
 }
