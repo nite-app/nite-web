@@ -1,7 +1,7 @@
 function sendMail() {
   var link =
-    "mailto:info@niteapp.cf" +
-    "?cc=commercial@niteapp.cf" +
+    "mailto:info@nite.is" +
+    "?cc=commercial@nite.is" +
     "&subject=" +
     encodeURIComponent(document.getElementById("subjecttxt").value) +
     "&body=" +
